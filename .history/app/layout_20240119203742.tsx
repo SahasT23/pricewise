@@ -4,7 +4,7 @@ import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 const space_Grotesk = Space_Grotesk({
-  subsets: ['latin'], weight: ['300', '400', '500', '600', '700']
+  subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
