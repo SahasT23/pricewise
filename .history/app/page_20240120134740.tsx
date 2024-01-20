@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const Home = () => {
@@ -13,15 +12,8 @@ const Home = () => {
               <Image 
                 src="/assets/icons/arrow-right.svg"
                 alt="arrow-right"
-                width={16}
-                height={16}
               />
             </p>
-
-            <h1 className='head-text'>
-              Unleash the power of
-              <span className='text-primary'> PriceWise</span>
-            </h1>
           </div>
         </div>
       </section>

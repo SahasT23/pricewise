@@ -19,8 +19,7 @@ const Home = () => {
             </p>
 
             <h1 className='head-text'>
-              Unleash the power of
-              <span className='text-primary'> PriceWise</span>
+              
             </h1>
           </div>
         </div>
