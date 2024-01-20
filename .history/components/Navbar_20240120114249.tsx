@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <header className='w-full'>
-      <nav>
+    <header>
+        <nav>
 
       </nav>
     </header>
