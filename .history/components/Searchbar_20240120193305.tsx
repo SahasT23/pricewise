@@ -37,7 +37,7 @@ const Searchbar = () => {
         try {
             SetIsLoading(true);
 
-        // Scrape our first product for product page
+        // Scrape our first product
         } catch (error) {
             
         } finally {
