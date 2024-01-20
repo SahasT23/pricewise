@@ -22,7 +22,7 @@ const HeroCarousel = () => {
                     width={484}
                     height={484}
                     className="object-contain"
-                    key={image.alt}
+                    key
                 />
             ))}
         </Carousel>

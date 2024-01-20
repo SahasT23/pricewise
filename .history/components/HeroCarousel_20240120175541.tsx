@@ -16,14 +16,7 @@ const HeroCarousel = () => {
     <div>
         <Carousel>
             {heroImages.map((image) => (
-                <Image
-                    src={image.imgUrl}
-                    alt={image.alt}
-                    width={484}
-                    height={484}
-                    className="object-contain"
-                    key={image.alt}
-                />
+                <Image/>
             ))}
         </Carousel>
     </div>

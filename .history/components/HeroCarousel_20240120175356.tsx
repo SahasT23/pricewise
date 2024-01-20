@@ -1,8 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Image from "next/image";
 
-const heroImages = [
+const heroImage = [
     { imgUrl: '/assets/images/hero-1.svg', alt: 'smartwatch' },
     { imgUrl: '/assets/images/hero-2.svg', alt: 'bag' },
     { imgUrl: '/assets/images/hero-3.svg', alt: 'lamp' },
@@ -15,16 +14,18 @@ const HeroCarousel = () => {
   return (
     <div>
         <Carousel>
-            {heroImages.map((image) => (
-                <Image
-                    src={image.imgUrl}
-                    alt={image.alt}
-                    width={484}
-                    height={484}
-                    className="object-contain"
-                    key={image.alt}
-                />
-            ))}
+            <div>
+                    <img src="assets/1.jpeg" />
+                    <p className="legend">Legend 1</p>
+            </div>
+            <div>
+                    <img src="assets/2.jpeg" />
+                    <p className="legend">Legend 2</p>
+            </div>
+            <div>
+                    <img src="assets/3.jpeg" />
+                    <p className="legend">Legend 3</p>
+            </div>
         </Carousel>
     </div>
   )
