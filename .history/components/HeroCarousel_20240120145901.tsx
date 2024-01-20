@@ -17,8 +17,8 @@ const HeroCarousel = () => {
             <div>
                     <img src="assets/3.jpeg" />
                     <p className="legend">Legend 3</p>
-            </div>
-        </Carousel>
+                </div>
+            </Carousel>
     </div>
   )
 }
