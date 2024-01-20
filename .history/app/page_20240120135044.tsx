@@ -23,27 +23,8 @@ const Home = () => {
               <span className='text-primary'> PriceWise</span>
             </h1>
 
-            <p className="mt-6">
-            Powerful, self-serve product and growth
-            analytics to help you convert, engage and
-            retain more.
-            </p>
-
-            Searchbar
+            <p className></p>
           </div>
-
-          HeroCarousel
-        </div>
-      </section>
-
-      <section className='trending-section'>
-        <h2 className='section-text'>Trending</h2>
-
-        <div className='flex flex-wrap gap-x-8 gap-y-16'>
-          {['Apple Iphone 15', 'Book', 'Sneakers'].map
-          ((product) => (
-            <div>{product}</div>
-          ))}
         </div>
       </section>
     </>
