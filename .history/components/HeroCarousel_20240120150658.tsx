@@ -1,9 +1,6 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import React from 'react'
+import "react-responive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-
-const heroImage = [
-    { imgUrl: '/assets/images/hero-1.svg', alt: 'smartwatch' },
-]
 
 const HeroCarousel = () => {
   return (
@@ -23,7 +20,7 @@ const HeroCarousel = () => {
             </div>
         </Carousel>
     </div>
-  )
+  )E
 }
 
 export default HeroCarousel

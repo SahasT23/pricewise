@@ -2,7 +2,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 const heroImage = [
-    { imgUrl: '/assets/images/hero-1.svg', alt: 'smartwatch' },
+    { imgUrl: '/assets/images/hero-1.svg', alt:  }
 ]
 
 const HeroCarousel = () => {
