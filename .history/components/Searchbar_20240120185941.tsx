@@ -17,8 +17,6 @@ const isValidAmazonProductURL = (url: string) => {
     } catch (error) {
       return false;  
     }
-
-    return false;
 }
 
 const Searchbar = () => {
@@ -26,10 +24,7 @@ const Searchbar = () => {
     
     const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        
         const isValidLink = isValidAmazonProductURL(searchPrompt);
-
-        alert(isValidLink ? 'Valid link' : 'Invalid link')
     }
 
   

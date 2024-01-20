@@ -11,14 +11,12 @@ const isValidAmazonProductURL = (url: string) => {
             hostname.includes('amazon.com') || 
             hostname.includes('amazon.') || 
             hostname.endsWith('amazon')
-        )   {
-            return true;
+        ){
+
         } 
     } catch (error) {
-      return false;  
+        
     }
-
-    return false;
 }
 
 const Searchbar = () => {
@@ -26,10 +24,7 @@ const Searchbar = () => {
     
     const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        
         const isValidLink = isValidAmazonProductURL(searchPrompt);
-
-        alert(isValidLink ? 'Valid link' : 'Invalid link')
     }
 
   

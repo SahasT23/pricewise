@@ -28,8 +28,6 @@ const Searchbar = () => {
         event.preventDefault();
         
         const isValidLink = isValidAmazonProductURL(searchPrompt);
-
-        alert(isValidLink ? 'Valid link' : 'Invalid link')
     }
 
   
