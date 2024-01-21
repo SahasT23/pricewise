@@ -28,14 +28,11 @@ string) {
 
 
         const title = $('#productTitle').text().trim();
-        const currentPrice = extractPrice(
-            $('.priceToPay span.a-price-whole'),
-            $('a.size.base.a-color-price'),
-            $('.a-button-selected .a-color-base'),
-            $('.a-price.a-text-price')
+        const currentprice = extractPrice(
+            $('.priceToPay span.a-price-whole')
         );
 
-        console.log({title, currentPrice});
+        console.log({title});
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }

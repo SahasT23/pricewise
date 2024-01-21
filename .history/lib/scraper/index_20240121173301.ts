@@ -31,8 +31,7 @@ string) {
         const currentPrice = extractPrice(
             $('.priceToPay span.a-price-whole'),
             $('a.size.base.a-color-price'),
-            $('.a-button-selected .a-color-base'),
-            $('.a-price.a-text-price')
+            $('.a-button-selected .a-color-base')
         );
 
         console.log({title, currentPrice});
