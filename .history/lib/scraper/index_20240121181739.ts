@@ -1,6 +1,6 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
-import { extractCurrency, extractPrice } from "../utils";
+import { extractPrice } from "../utils";
 
 export async function scrapeAmazonProduct(url:
 string) {
@@ -53,9 +53,9 @@ string) {
 
         const imageUrls = Object.keys(JSON.parse(images));
 
-        const currency = extractCurrency($('.a-price-symbol'))
+        const currency
 
-        console.log({title, currentPrice, originalPrice, outOfstock, images, imageUrls, currency});
+        console.log({title, currentPrice, originalPrice, outOfstock, images, imageUrls});
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }
