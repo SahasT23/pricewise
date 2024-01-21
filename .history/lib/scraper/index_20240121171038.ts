@@ -26,9 +26,8 @@ string) {
         const $ = cheerio.load(response.data);
 
 
-        const title = $('#productTitle').text().trim();
-
-        console.log({title});
+        const title = $('#productTitle')
+        console.log(response.data);
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }
