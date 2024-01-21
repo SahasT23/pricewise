@@ -17,9 +17,5 @@ string) {
         rejectUnauthorized: false,
     }
 
-    try {
-        
-    } catch (error: any) {
-        throw new Error(`Failed to scrape product: ${error.message}`)
-    }
+    try
 }
