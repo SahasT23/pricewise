@@ -62,18 +62,9 @@ string) {
             url,
             currency: currency || '$',
             image: imageUrls[0],
-            title,
-            currentPrice: Number(currentPrice),
-            originalPrice: Number(originalPrice),
-            priceHistory: [],
-            discountRate: Number(discountRate),
-            category: 'category',
-            reviewsCount:100,
-            stars: 4.5,
-            isOutOfStock: outOfstock,
-        }
+            title
 
-        console.log(data);
+        }
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }

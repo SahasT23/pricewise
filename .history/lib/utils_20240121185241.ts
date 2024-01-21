@@ -8,9 +8,6 @@ export function extractPrice(...elements: any) {
     return ''; 
 }
 
-export function extractCurrency(element: any) {
-    const currencyText = element.text().trim().slice(0, 1);
-    return currencyText ? currencyText : '';
-}
+export function extractCurrency(element: any) 
 
 

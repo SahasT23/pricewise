@@ -69,11 +69,8 @@ string) {
             discountRate: Number(discountRate),
             category: 'category',
             reviewsCount:100,
-            stars: 4.5,
-            isOutOfStock: outOfstock,
+            
         }
-
-        console.log(data);
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }

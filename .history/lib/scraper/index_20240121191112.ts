@@ -73,7 +73,7 @@ string) {
             isOutOfStock: outOfstock,
         }
 
-        console.log(data);
+        console.log(data)
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }

@@ -67,13 +67,8 @@ string) {
             originalPrice: Number(originalPrice),
             priceHistory: [],
             discountRate: Number(discountRate),
-            category: 'category',
-            reviewsCount:100,
-            stars: 4.5,
-            isOutOfStock: outOfstock,
+            category:
         }
-
-        console.log(data);
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }
