@@ -19,7 +19,7 @@ string) {
 
     try {
         // Fetch the product page
-        const response = await axios.get(url, options);
+        const response
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }
