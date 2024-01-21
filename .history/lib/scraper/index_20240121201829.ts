@@ -76,11 +76,11 @@ string) {
             isOutOfStock: outOfstock,
             description,
             lowestPrice: Number(currentPrice) || Number(originalPrice),
-            highestPrice: Number(originalPrice) || Number(currentPrice),
-            average: Number(originalPrice) || Number(currentPrice)
+            highestPrice: Number(originalPrice) || Number(currentPrice)
+            average: Number()
         }
 
-        return data;
+        console.log(data);
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }

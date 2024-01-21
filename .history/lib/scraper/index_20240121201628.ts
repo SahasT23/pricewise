@@ -1,7 +1,6 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
 import { extractCurrency, extractDescription, extractPrice } from "../utils";
-import { Average } from "next/font/google";
 
 export async function scrapeAmazonProduct(url:
 string) {
@@ -76,11 +75,10 @@ string) {
             isOutOfStock: outOfstock,
             description,
             lowestPrice: Number(currentPrice) || Number(originalPrice),
-            highestPrice: Number(originalPrice) || Number(currentPrice),
-            average: Number(originalPrice) || Number(currentPrice)
+            highestPrice: Number(originalPrice || Number(currentPrice)
         }
 
-        return data;
+        console.log(data);
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }

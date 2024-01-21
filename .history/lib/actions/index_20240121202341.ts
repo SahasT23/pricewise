@@ -6,7 +6,7 @@ export async function scrapeAndStoreProduct(productUrl: string) {
     if(!productUrl) return;
 
     try {
-        connectToDB
+        
         
         const scrapedProduct = await scrapeAmazonProduct(productUrl);
 

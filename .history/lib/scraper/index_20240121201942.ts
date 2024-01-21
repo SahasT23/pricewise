@@ -80,7 +80,7 @@ string) {
             average: Number(originalPrice) || Number(currentPrice)
         }
 
-        return data;
+        console.log(data);
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }
