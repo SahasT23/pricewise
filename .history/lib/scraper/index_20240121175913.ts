@@ -44,13 +44,9 @@ string) {
         );
 
         const outOfstock = $('#availability span').text().trim().toLowerCase
-        () === 'currently unavailable';
+        
 
-        const image = 
-            $('#imgBlkFront').attr('data-a-dynamic-image') || 
-            $('#landingImage').attr('data-a-dynamic-image'); 
-
-        console.log({title, currentPrice, originalPrice, outOfstock});
+        console.log({title, currentPrice, originalPrice});
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }

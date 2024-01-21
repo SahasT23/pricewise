@@ -46,9 +46,7 @@ string) {
         const outOfstock = $('#availability span').text().trim().toLowerCase
         () === 'currently unavailable';
 
-        const image = 
-            $('#imgBlkFront').attr('data-a-dynamic-image') || 
-            $('#landingImage').attr('data-a-dynamic-image'); 
+        const image =$
 
         console.log({title, currentPrice, originalPrice, outOfstock});
     } catch (error: any) {

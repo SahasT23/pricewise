@@ -48,7 +48,7 @@ string) {
 
         const image = 
             $('#imgBlkFront').attr('data-a-dynamic-image') || 
-            $('#landingImage').attr('data-a-dynamic-image'); 
+            
 
         console.log({title, currentPrice, originalPrice, outOfstock});
     } catch (error: any) {
