@@ -73,9 +73,7 @@ string) {
             reviewsCount:100,
             stars: 4.5,
             isOutOfStock: outOfstock,
-            description,
-            lowestPrice: Number(currentPrice) || Number(originalPrice),
-            highestPrice: Number(originalPrice || Number(currentPrice))
+            
         }
 
         console.log(data);

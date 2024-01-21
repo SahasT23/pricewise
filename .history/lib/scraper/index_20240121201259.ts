@@ -66,16 +66,13 @@ string) {
             image: imageUrls[0],
             title,
             currentPrice: Number(currentPrice) || Number(originalPrice),
-            originalPrice: Number(originalPrice) || Number(currentPrice),
+            originalPrice: Number(originalPrice) || Number,
             priceHistory: [],
             discountRate: Number(discountRate),
             category: 'category',
             reviewsCount:100,
             stars: 4.5,
             isOutOfStock: outOfstock,
-            description,
-            lowestPrice: Number(currentPrice) || Number(originalPrice),
-            highestPrice: Number(originalPrice || Number(currentPrice))
         }
 
         console.log(data);

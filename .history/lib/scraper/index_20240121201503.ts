@@ -75,7 +75,7 @@ string) {
             isOutOfStock: outOfstock,
             description,
             lowestPrice: Number(currentPrice) || Number(originalPrice),
-            highestPrice: Number(originalPrice || Number(currentPrice))
+            highestPrice: Number(originalPrice)
         }
 
         console.log(data);

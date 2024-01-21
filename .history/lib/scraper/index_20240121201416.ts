@@ -74,8 +74,8 @@ string) {
             stars: 4.5,
             isOutOfStock: outOfstock,
             description,
-            lowestPrice: Number(currentPrice) || Number(originalPrice),
-            highestPrice: Number(originalPrice || Number(currentPrice))
+            lowestPrice: Number(currentPrice),
+            highest
         }
 
         console.log(data);
