@@ -1,6 +1,5 @@
 "use client"
 
-import { scrapeAndStoreProduct } from '@/lib/actions';
 import React, { FormEvent, useState } from 'react'
 
 const isValidAmazonProductURL = (url: string) => {
@@ -39,7 +38,7 @@ const Searchbar = () => {
             SetIsLoading(true);
 
         // Scrape our first product for product page
-        const product = await scrapeAndStoreProduct(searchPrompt);
+        const product = await
         } catch (error) {
             console.log(error);
         } finally {

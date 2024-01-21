@@ -5,7 +5,7 @@ export async function scrapeAmazonProduct(url:
 string) {
     if(!url) return;
 
-    // BrightData proxy configuration
+    
     const username = String(process.env.BRIGHT_DATA_USERNAME);
     const password = String(process.env.BRIGHT_DATA_PASSWORD);
     const port = 22225;
@@ -23,7 +23,6 @@ string) {
     try {
         // Fetch the product page
         const response = await axios.get(url, options);
-        const $ = cheerio.load(response.data)
 
         console.log(response.data);
     } catch (error: any) {
