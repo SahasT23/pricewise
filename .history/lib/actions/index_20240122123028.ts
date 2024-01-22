@@ -55,7 +55,7 @@ export async function getProductByID(productId: string) {
 
         if(!product) return null;
 
-        return product;
+        
 
     } catch (error) {
         

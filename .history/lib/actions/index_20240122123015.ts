@@ -53,10 +53,8 @@ export async function getProductByID(productId: string) {
 
         const product = await Product.findOne({_id: productId});
 
-        if(!product) return null;
 
-        return product;
-
+        
     } catch (error) {
         
     }
