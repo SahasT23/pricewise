@@ -47,10 +47,3 @@ export async function scrapeAndStoreProduct(productUrl: string) {
     }
 }
 
-export async function getProductByID(productId: string) {
-    try {
-        connectToDB;
-    } catch (error) {
-        
-    }
-}
