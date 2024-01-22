@@ -83,10 +83,10 @@ export async function getSimilarProducts(productId: string) {
         if(!currentProduct) return null;
 
         const similarProducts = await Product.find({
-            _id: { $ne: productId },
-        }).limit(3);
+            _id: { $ne}
+        })
 
-        return similarProducts;
+        return products;
     } catch (error) {
         console.log(error);
     }

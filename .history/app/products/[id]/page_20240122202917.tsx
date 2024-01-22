@@ -164,17 +164,10 @@ const ProductDetails =  async ({ params: {id} }: Props) => {
                     <Image 
                         src="/assets/icons/bag.svg"
                         alt="check"
-                        width={22}
-                        height={22}
+                        width={}
                     />
-
-                    <Link href="/" className="text-base text-white">
-                        Buy Now
-                    </Link>
                 </button>
             </div>
-
-            
         </div>
     )
 }

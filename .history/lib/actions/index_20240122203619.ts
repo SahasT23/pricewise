@@ -86,7 +86,7 @@ export async function getSimilarProducts(productId: string) {
             _id: { $ne: productId },
         }).limit(3);
 
-        return similarProducts;
+        return products;
     } catch (error) {
         console.log(error);
     }

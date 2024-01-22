@@ -173,8 +173,6 @@ const ProductDetails =  async ({ params: {id} }: Props) => {
                     </Link>
                 </button>
             </div>
-
-            
         </div>
     )
 }
