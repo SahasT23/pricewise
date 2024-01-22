@@ -129,7 +129,7 @@ const ProductDetails =  async ({ params: {id} }: Props) => {
                             <PriceInfoCard
                                 title="Average price"
                                 iconSrc="/assets/icons/chart.svg"
-                                value={`${product.currency} ${formatNumber(product.averagePrice)}`}
+                                value={`${product.currency} ${formatNumber(product.averagePrice)}`
                             />
                             <PriceInfoCard
                                 title="Highest price"

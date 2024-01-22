@@ -1,4 +1,3 @@
-import PriceInfoCard from "@/components/PriceInfoCard";
 import { getProductByID } from "@/lib/actions"
 import { formatNumber } from "@/lib/utils";
 import { Product } from "@/types";
@@ -119,29 +118,8 @@ const ProductDetails =  async ({ params: {id} }: Props) => {
                         </div>
                     </div>
 
-                    <div className="my-7 flex flex-col gap-5">
-                        <div className="flex gap-5 flex-wrap">
-                            <PriceInfoCard
-                                title="Current price"
-                                iconSrc="/assets/icons/price-tag.svg"
-                                value={`${product.currency} ${formatNumber(product.currentPrice)}`}
-                            />
-                            <PriceInfoCard
-                                title="Average price"
-                                iconSrc="/assets/icons/chart.svg"
-                                value={`${product.currency} ${formatNumber(product.averagePrice)}`}
-                            />
-                            <PriceInfoCard
-                                title="Highest price"
-                                iconSrc="/assets/icons/arrow-up.svg"
-                                value={`${product.currency} ${formatNumber(product.highestPrice)}`}
-                            />
-                            <PriceInfoCard
-                                title="Lowest price"
-                                iconSrc="/assets/icons/arrow-down.svg"
-                                value={`${product.currency} ${formatNumber(product.lowestPrice)}`}
-                            />
-                        </div>
+                    <div c>
+
                     </div>
                 </div>
             </div>
