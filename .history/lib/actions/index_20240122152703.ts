@@ -70,6 +70,6 @@ export async function getAllProducts() {
 
         return products;
     } catch (error) {
-        console.log(error);
+        console.lo
     }
 }
