@@ -4,7 +4,7 @@ type Props = {
 
 const ProductDetails = ({ params: {id} }: Props) => {
   return (
-    <div>{id}</div>
+    <div></div>
   )
 }
 
