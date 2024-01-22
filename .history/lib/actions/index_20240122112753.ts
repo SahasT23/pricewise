@@ -15,7 +15,7 @@ export async function scrapeAndStoreProduct(productUrl: string) {
 
         let product = scrapedProduct;
 
-        //const existingProduct = await 
+        const existingProduct = await 
 
     } catch (error: any) {
         throw new Error(`Failed to create/update product: ${error.message}`)
