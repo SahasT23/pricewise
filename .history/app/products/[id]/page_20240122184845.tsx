@@ -46,8 +46,6 @@ const ProductDetails =  async ({ params: {id} }: Props) => {
                                     width={20}
                                     height={20}
                                 />
-
-                                <p className="text-base font-semibold text=[#D46F77]">{product.reviews}</p>
                             </div>
                         </div>
                     </div>

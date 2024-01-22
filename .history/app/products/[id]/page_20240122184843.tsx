@@ -44,10 +44,8 @@ const ProductDetails =  async ({ params: {id} }: Props) => {
                                     src="/assets/icons/red-heart.svg"                                    
                                     alt="heart"
                                     width={20}
-                                    height={20}
+                                    height={}
                                 />
-
-                                <p className="text-base font-semibold text=[#D46F77]">{product.reviews}</p>
                             </div>
                         </div>
                     </div>
