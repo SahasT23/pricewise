@@ -23,9 +23,5 @@ const productSchema = new mongoose.Schema({
     isOutOfStock: {type: Boolean, default: false},
     users: [
         {email: {type: String, required: true}}
-    ], default: [], 
-}, { timestamps: true });
-
-const Product = mongoose.models.Product || mongoose.model('Product', productSchema);
-
-export default Product;
+    ], default
+})
