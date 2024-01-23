@@ -3,4 +3,7 @@ This is a Next.js clone of a product scraping app that I have made as part of a 
 ## Landing page with slideshow
 ![Screenshot from 2024-01-23 19-30-03](https://github.com/SahasT23/pricewise/assets/108793094/1757d26e-f2ca-43db-9052-5762b3557fc4)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Email Notification System
+
+![Screenshot from 2024-01-23 19-32-00](https://github.com/SahasT23/pricewise/assets/108793094/2ab7d1af-a3e2-4fdb-8911-6bf657fa8734)
