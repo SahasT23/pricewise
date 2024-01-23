@@ -1,4 +1,3 @@
-import Modal from "@/components/Modal";
 import PriceInfoCard from "@/components/PriceInfoCard";
 import ProductCard from "@/components/ProductCard";
 import { getProductByID, getSimilarProducts } from "@/lib/actions"
