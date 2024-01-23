@@ -7,3 +7,7 @@ This is a Next.js clone of a product scraping app that I have made as part of a 
 ## Email Notification System
 
 ![Screenshot from 2024-01-23 19-32-00](https://github.com/SahasT23/pricewise/assets/108793094/2ab7d1af-a3e2-4fdb-8911-6bf657fa8734)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Track the price and view statistics live
+![Screenshot from 2024-01-23 19-32-00](https://github.com/SahasT23/pricewise/assets/108793094/32e46877-b5e8-4e5f-830f-95d2054a9a81)
