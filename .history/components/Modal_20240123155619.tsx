@@ -5,9 +5,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image';
 import { addUserEmailToProduct } from '@/lib/actions';
 
-interface Props {
-    productId: string
-}
+interface Props
 
 const Modal = ({ productId }: Props) => {
     let [isOpen, setIsOpen] = useState(true);

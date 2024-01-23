@@ -4,10 +4,7 @@ import { FormEvent, Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image';
 import { addUserEmailToProduct } from '@/lib/actions';
-
-interface Props {
-    productId: string
-}
+import { Props } from 'react-responsive-carousel/lib/ts/components/Thumbs';
 
 const Modal = ({ productId }: Props) => {
     let [isOpen, setIsOpen] = useState(true);

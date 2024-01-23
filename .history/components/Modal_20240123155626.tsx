@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { addUserEmailToProduct } from '@/lib/actions';
 
 interface Props {
-    productId: string
+    productId
 }
 
 const Modal = ({ productId }: Props) => {

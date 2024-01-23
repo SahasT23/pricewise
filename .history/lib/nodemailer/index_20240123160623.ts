@@ -3,7 +3,7 @@
 import { EmailContent, EmailProductInfo, NotificationType } from '@/types'
 import nodemailer from 'nodemailer'
 
-const Notification = {
+ const Notification = {
     WELCOME: 'WELCOME',
     CHANGE_OF_STOCK: 'CHANGE_OF_STOCK',
     LOWEST_PRICE: 'LOWEST_PRICE',
@@ -91,16 +91,16 @@ const transporter = nodemailer.createTransport({
     maxConnections: 1
 })
 
-export const sendEmail = async (emailContent: EmailContent, sentTo:
+export const sendEmail = async (emailContent: EmailContent, sendTo:
 string[]) => {
     const mailOptions = {
         from: 'Sahas.Test@outlook.com',
-        to: sentTo,
+        to: sendTo,
         html: emailContent.body,
         subject: emailContent.subject,
     }
 
-    await transporter.sendMail(mailOptions, (error: any, info: any) => {
+    transporter.sendEmail(mailOptions, (error: any, info: any) => {
         if(error) return console.log(error);
 
         console.log('Email sent: ', info);

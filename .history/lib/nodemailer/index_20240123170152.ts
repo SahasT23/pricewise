@@ -98,9 +98,9 @@ string[]) => {
         to: sentTo,
         html: emailContent.body,
         subject: emailContent.subject,
-    }
+    };
 
-    await transporter.sendMail(mailOptions, (error: any, info: any) => {
+    transporter.sendMail(mailOptions, (error: any, info: any) => {
         if(error) return console.log(error);
 
         console.log('Email sent: ', info);
