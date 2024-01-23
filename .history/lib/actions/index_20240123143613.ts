@@ -1,6 +1,5 @@
 "use server"
 
-import { User } from "@/types";
 import Product from "../models/product.model";
 import { connectToDB } from "../mongoose";
 import { scrapeAmazonProduct } from "../scraper";
@@ -93,24 +92,4 @@ export async function getSimilarProducts(productId: string) {
     }
 }
 
-export async function addUserEmailToProduct(productId: string,
-userEmail: string) {
-    try {
-        const product = await Product.findById(productId);
-
-        if(!product) return;
-
-        const userExists = product.users.some((user: User) => user.email
-        === userEmail);
-
-        if (!userExists) {
-            product.users.push({ email: userEmail});
-
-            await product.save();
-
-            const emailCotent = generateEmailBody(product, "WELCOME");
-        }
-    } catch (error) {
-        
-    }
-}
+export async function addUserEmailToProduct(productId: str)

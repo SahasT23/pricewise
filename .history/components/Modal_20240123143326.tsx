@@ -13,11 +13,7 @@ const Modal = () => {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // await addUserEmailToProduct(productId, email);
-
-        setIsSubmitting(false)
-        setEmail('')
-        closeModal()
+        // await addUserEmailToProduct(productId, email)
     }
 
     const openModal = () => setIsOpen(true);

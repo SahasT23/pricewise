@@ -16,8 +16,7 @@ const Modal = () => {
         // await addUserEmailToProduct(productId, email);
 
         setIsSubmitting(false)
-        setEmail('')
-        closeModal()
+        setEmail
     }
 
     const openModal = () => setIsOpen(true);

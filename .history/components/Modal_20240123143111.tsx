@@ -1,6 +1,6 @@
 "use client"
 
-import { FormEvent, Fragment, useState } from 'react'
+import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image';
 
@@ -9,15 +9,8 @@ const Modal = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [email, setEmail] = useState('');
 
-    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        setIsSubmitting(true);
+    const handleSubmit = async () => {
 
-        // await addUserEmailToProduct(productId, email);
-
-        setIsSubmitting(false)
-        setEmail('')
-        closeModal()
     }
 
     const openModal = () => setIsOpen(true);
@@ -116,7 +109,7 @@ const Modal = () => {
                                         <button type="submit"
                                             className='dialog-btn'
                                         >
-                                            {isSubmitting ? 'Submitting...' : 'Track'}
+                                            {isSubmitting ? 'Sub'}
                                         </button>
                                     </form>
                                 </div>

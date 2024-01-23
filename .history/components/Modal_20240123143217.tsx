@@ -9,15 +9,8 @@ const Modal = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [email, setEmail] = useState('');
 
-    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        setIsSubmitting(true);
+    const handleSubmit = async (e: FormEvent<HTMLForm) => {
 
-        // await addUserEmailToProduct(productId, email);
-
-        setIsSubmitting(false)
-        setEmail('')
-        closeModal()
     }
 
     const openModal = () => setIsOpen(true);

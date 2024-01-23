@@ -17,7 +17,6 @@ const Modal = () => {
 
         setIsSubmitting(false)
         setEmail('')
-        closeModal()
     }
 
     const openModal = () => setIsOpen(true);

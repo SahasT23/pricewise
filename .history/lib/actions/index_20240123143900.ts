@@ -108,7 +108,7 @@ userEmail: string) {
 
             await product.save();
 
-            const emailCotent = generateEmailBody(product, "WELCOME");
+            
         }
     } catch (error) {
         

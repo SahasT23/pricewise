@@ -103,13 +103,7 @@ userEmail: string) {
         const userExists = product.users.some((user: User) => user.email
         === userEmail);
 
-        if (!userExists) {
-            product.users.push({ email: userEmail});
-
-            await product.save();
-
-            const emailCotent = generateEmailBody(product, "WELCOME");
-        }
+        
     } catch (error) {
         
     }
