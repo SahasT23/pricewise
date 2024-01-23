@@ -1,7 +1,7 @@
 This is a Next.js clone of a product scraping app that I have made as part of a guided project to further my understanding of front-end development as well as learning about databases and implementing an email notification system using nodemailer
 
 ## Landing page with slideshow
-file:///home/sahast/Pictures/Screenshots/Screenshot%20from%202024-01-23%2019-30-03.png
+![Screenshot from 2024-01-23 19-30-03](https://github.com/SahasT23/pricewise/assets/108793094/1757d26e-f2ca-43db-9052-5762b3557fc4)
 
 
 ```
