@@ -84,7 +84,7 @@ const transporter = nodemailer.createTransport({
     port: 2525,
     auth: {
         user: 'Sahas.Test@outlook.com',
-        pass: 'process.env.EMAIL_PASSWORD',
+        pass: 'process.env',
     },
     maxConnections: 1
 })

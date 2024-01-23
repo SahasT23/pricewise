@@ -1,4 +1,4 @@
-import { EmailContent, EmailProductInfo, NotificationType } from '@/types'
+import { EmailProductInfo, NotificationType } from '@/types'
 import nodemailer from 'nodemailer'
 
 export const Notification = {
@@ -9,11 +9,11 @@ export const Notification = {
 }
 
 export async function generateEmailBody(
-  product: EmailProductInfo,
-  type: NotificationType
-  ) {
-  const THRESHOLD_PERCENTAGE = 40;
-  // Shorten the product title
+    product: EmailProductInfo,
+    type: NotificationType
+    ) {
+    const THRESHOLD_PERCENTAGE = 40;
+    // Shorten the product title
   const shortenedTitle =
     product.title.length > 20
       ? `${product.title.substring(0, 20)}...`
@@ -76,25 +76,4 @@ export async function generateEmailBody(
   }
 
   return { subject, body };
-}
-
-const transporter = nodemailer.createTransport({
-    pool: true,
-    service: 'hotmail',
-    port: 2525,
-    auth: {
-        user: 'Sahas.Test@outlook.com',
-        pass: 'process.env.EMAIL_PASSWORD',
-    },
-    maxConnections: 1
-})
-
-export const sendEmail = async (emailContent: EmailContent, sendTo:
-string[]) => {
-    const mailOptions = {
-        from: 'Sahas.Test@outlook.com',
-        to: sendTo,
-        html: emailContent.body,
-        subject: emailContent.subject,
-    }
 }

@@ -109,9 +109,7 @@ userEmail: string) {
 
             await product.save();
 
-            const emailContent = generateEmailBody(product, "WELCOME");
-
-            await sendEmail(emailContent, [userEmail]);
+            const emailCotent = generateEmailBody(product, "WELCOME");
         }
     } catch (error) {
         

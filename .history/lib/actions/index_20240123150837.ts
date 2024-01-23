@@ -111,7 +111,7 @@ userEmail: string) {
 
             const emailContent = generateEmailBody(product, "WELCOME");
 
-            await sendEmail(emailContent, [userEmail]);
+            await sendEmail(emailCotent)
         }
     } catch (error) {
         

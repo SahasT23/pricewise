@@ -84,7 +84,7 @@ const transporter = nodemailer.createTransport({
     port: 2525,
     auth: {
         user: 'Sahas.Test@outlook.com',
-        pass: 'process.env.EMAIL_PASSWORD',
+        pass: '',
     },
     maxConnections: 1
 })
@@ -92,7 +92,7 @@ const transporter = nodemailer.createTransport({
 export const sendEmail = async (emailContent: EmailContent, sendTo:
 string[]) => {
     const mailOptions = {
-        from: 'Sahas.Test@outlook.com',
+        from: 'Sahas.Test',
         to: sendTo,
         html: emailContent.body,
         subject: emailContent.subject,
