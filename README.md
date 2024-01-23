@@ -1,3 +1,5 @@
+# The fastest and easiest way to get the tech that you love
+
 This is a Next.js clone of a product scraping app that I have made as part of a guided project to further my understanding of front-end development as well as learning about databases and implementing an email notification system using nodemailer.
 
 ## Landing page with slideshow
@@ -15,4 +17,4 @@ This is a Next.js clone of a product scraping app that I have made as part of a 
 ## Comes with a highly detailed description and link to the product
 ![Screenshot from 2024-01-23 19-56-32](https://github.com/SahasT23/pricewise/assets/108793094/0daf45ca-55e8-4caf-8d46-6dbafbb14f52)
 
-========================================================================================================================================================================================
+
