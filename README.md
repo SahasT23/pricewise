@@ -21,5 +21,5 @@ This is a Next.js clone of a product scraping app that I have made as part of a 
 ![Screenshot from 2024-01-23 19-56-32](https://github.com/SahasT23/pricewise/assets/108793094/0daf45ca-55e8-4caf-8d46-6dbafbb14f52)
 
 --------
-### **Built with** [Nextjs](https://github.com/vercel/next.js)
+### **Built with** [Nextjs](https://github.com/vercel/next.js) and [nodemailer](https://github.com/nodemailer/nodemailer)
 
