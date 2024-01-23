@@ -12,5 +12,7 @@ This is a Next.js clone of a product scraping app that I have made as part of a 
 ## Get the latest technology from the earliest date hassle-free.
 ![Screenshot from 2024-01-23 19-32-34](https://github.com/SahasT23/pricewise/assets/108793094/de19d0b6-674d-4458-a04f-3422ae8b64bc)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## 
+## Comes with a highly detailed description and link to the product
 ![Screenshot from 2024-01-23 19-56-32](https://github.com/SahasT23/pricewise/assets/108793094/0daf45ca-55e8-4caf-8d46-6dbafbb14f52)
+
+########################################################################################################################################################################################
