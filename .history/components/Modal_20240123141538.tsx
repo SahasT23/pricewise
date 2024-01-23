@@ -6,12 +6,6 @@ import Image from 'next/image';
 
 const Modal = () => {
     let [isOpen, setIsOpen] = useState(true);
-    const [isSubmitting, setIsSubmitting] = useState(false);
-    const [email, setEmail] = useState('');
-
-    const handleSubmit = async () => {
-        
-    }
 
     const openModal = () => setIsOpen(true);
     
@@ -75,11 +69,11 @@ const Modal = () => {
                                         />
                                     </div>
 
-                                    <h4 className='dialog-head_text'>
+                                    <h4>
                                         Stay updated with product pricing alerts right in your inbox!
                                     </h4>
 
-                                    <p className='text-sm text-gray-600 mt-2'>
+                                    <p>
                                         Never miss a bargain again with our timely alerts!
                                     </p>
                                     
@@ -104,11 +98,7 @@ const Modal = () => {
                                             />
                                         </div>
 
-                                        <button type="submit"
-                                            className='dialog-btn'
-                                        >
-                                            Track
-                                        </button>
+                                        <button></button>
                                     </form>
                                 </div>
                             </div>

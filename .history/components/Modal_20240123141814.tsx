@@ -6,12 +6,7 @@ import Image from 'next/image';
 
 const Modal = () => {
     let [isOpen, setIsOpen] = useState(true);
-    const [isSubmitting, setIsSubmitting] = useState(false);
-    const [email, setEmail] = useState('');
-
-    const handleSubmit = async () => {
-        
-    }
+    us
 
     const openModal = () => setIsOpen(true);
     

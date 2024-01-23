@@ -9,9 +9,7 @@ const Modal = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [email, setEmail] = useState('');
 
-    const handleSubmit = async () => {
-        
-    }
+    const handleSubmit = async () =
 
     const openModal = () => setIsOpen(true);
     
