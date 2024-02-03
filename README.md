@@ -1,7 +1,6 @@
 # The fastest and easiest way to get the tech that you love
 
-This is a Next.js clone of a product scraping app that I have made as part of a guided project to further my understanding of front-end development with typescript along with learning about page styling and accessibility as well as learning about databases and implementing an email notification system using nodemailer.
-
+This is a Next.js clone of a product scraping app that I have made as part of a guided project to further my understanding of front-end development with typescript along with learning about page styling and accessibility. I have also added features such as nodemailer and cron.job to give the user updates of the products and their respective prices.
 ###### Hosting service has expired
 
 ## Landing page with slideshow
